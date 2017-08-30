@@ -226,4 +226,7 @@
         <item>XTRA_SERVER_1=https://glltos1.glpals.com/4day/v3/latest/lto2.dat</item>
         <item>XTRA_SERVER_2=https://glltos2.glpals.com/4day/v3/latest/lto2.dat</item>
      </string-array>
+
+    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
