@@ -18,3 +18,8 @@ LOCAL_PATH := device/samsung/s5neolte
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_s5neolte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_s5neolte-user \
+    lineage_s5neolte-userdebug \
+    lineage_s5neolte-eng
