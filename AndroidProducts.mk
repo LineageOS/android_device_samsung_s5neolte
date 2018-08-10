@@ -17,4 +17,4 @@
 LOCAL_PATH := device/samsung/s5neolte
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_s5neolte.mk
+    $(LOCAL_DIR)/lineage_s5neolte.mk

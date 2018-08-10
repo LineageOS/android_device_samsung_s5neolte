@@ -19,10 +19,15 @@ LOCAL_PATH := device/samsung/s5neolte
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
+
+# Inherit common Lineage phone.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_s5neolte
+PRODUCT_NAME := lineage_s5neolte
 PRODUCT_DEVICE := s5neolte
 PRODUCT_MODEL := SM-G903F
-PRODUCT_BRAND := Samsung
+PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
