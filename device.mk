@@ -18,5 +18,9 @@ LOCAL_PATH := device/samsung/s5neolte
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Inherit from universal7580-common
 $(call inherit-product, device/samsung/universal7580-common/device-common.mk)
