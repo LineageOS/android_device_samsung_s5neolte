@@ -19,5 +19,10 @@ include device/samsung/universal7580-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/s5neolte
 
+TARGET_OTA_ASSERT_DEVICE := s5neolte,s5neoltexx,s5neolteub,s5neoltevl
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sec
