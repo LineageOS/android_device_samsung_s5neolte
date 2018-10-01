@@ -24,6 +24,10 @@ TARGET_OTA_ASSERT_DEVICE := s5neolte,s5neoltexx,s5neolteub,s5neoltevl
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
+# RIL
+BOARD_MODEM_TYPE := tss310
+BOARD_PROVIDES_LIBRIL := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_sec
 
