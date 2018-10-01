@@ -59,3 +59,5 @@ PRODUCT_COPY_FILES += \
 # Inherit from universal7580-common
 $(call inherit-product, device/samsung/universal7580-common/device-common.mk)
 
+# call the proprietary setup
+$(call inherit-product, vendor/samsung/s5neolte/s5neolte-vendor.mk)
