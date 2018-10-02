@@ -199,15 +199,15 @@ lib/libmplmpu.so
 lib/libyasalgo.so
 
 # Wifi
-etc/wifi/bcmdhd_apsta.bin
-etc/wifi/bcmdhd_apsta.bin_blob
-etc/wifi/bcmdhd_clm.blob
-etc/wifi/bcmdhd_mfg.bin
-etc/wifi/bcmdhd_mfg.bin_blob
-etc/wifi/bcmdhd_sta.bin
-etc/wifi/bcmdhd_sta.bin_blob
-etc/wifi/nvram_mfg.txt
-etc/wifi/nvram_net.txt
+etc/wifi/bcmdhd_apsta.bin:vendor/etc/wifi/bcmdhd_apsta.bin
+etc/wifi/bcmdhd_apsta.bin_blob:vendor/etc/wifi/bcmdhd_apsta.bin_blob
+etc/wifi/bcmdhd_clm.blob:vendor/etc/wifi/bcmdhd_clm.blob
+etc/wifi/bcmdhd_mfg.bin:vendor/etc/wifi/bcmdhd_mfg.bin
+etc/wifi/bcmdhd_mfg.bin_blob:vendor/etc/wifi/bcmdhd_mfg.bin_blob
+etc/wifi/bcmdhd_sta.bin:vendor/etc/wifi/bcmdhd_sta.bin
+etc/wifi/bcmdhd_sta.bin_blob:vendor/etc/wifi/bcmdhd_sta.bin_blob
+etc/wifi/nvram_mfg.txt:vendor/etc/wifi/nvram_mfg.txt
+etc/wifi/nvram_net.txt:vendor/etc/wifi/nvram_net.txt
 
 # NFC
 etc/sec_s3fwrn7_rfreg.bin
