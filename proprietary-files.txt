@@ -43,6 +43,10 @@ app/mcRegistry/ffffffff00000000000000000000000d.tlbin
 app/mcRegistry/07060000000000000000000000000000.tlbin
 app/mcRegistry/ffffffff00000000000000000000000c.tlbin
 
+# RIL
+lib/libsec-ril.so|153aba6cb5dfbbc36e8f2216f354aa5a6c950786
+lib/libsec-ril-dsds.so|6270e1306ca5b3e84c3c005e883534349587dc16
+
 # Sensors
 lib/hw/sensors.universal7580.so
 lib/libinvensense_hal.so
