@@ -61,3 +61,7 @@ TARGET_LD_SHIM_LIBS += \
 # Legacy BLOB Support
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/hw/rild=27
+
+# SELinux
+SELINUX_IGNORE_NEVERALLOWS := true
+BOARD_SEPOLICY_DIRS += device/samsung/s5neolte/sepolicy
