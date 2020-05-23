@@ -1,3 +1,5 @@
+# all unpinned blobs come from SM-G903W stock (nougat)
+
 # Bluetooth
 vendor/firmware/bcm43455_V0147_0248.hcd
 
@@ -70,5 +72,5 @@ etc/sec_s3fwrn7_rfreg.bin
 lib/hw/nfc_nci.universal7580.so
 vendor/firmware/sec_s3fwrn7_firmware.bin
 
-# cbd
+# cbd, from boot.img and pinned to stop removal when extracting from system image
 bin/cbd:vendor/bin/cbd|22a54c7cdd5077e25eefe402ea2bb1cb0074e927
