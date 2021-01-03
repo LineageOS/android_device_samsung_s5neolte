@@ -22,6 +22,30 @@
       "revId": "4f29a26edb2119fbac86760c4fa93cbfdac32ce1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fdd5c16d_e0181dcc",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2021-01-03T13:30:28Z",
+      "side": 1,
+      "message": "because i dont like these huge switch statements everyone is using (i have other devices where i do quite alot with patchelf so i just do it the same way everywhere)",
+      "parentUuid": "e75246d8_4a0babc3",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 93
+      },
+      "revId": "4f29a26edb2119fbac86760c4fa93cbfdac32ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
