@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e75246d8_4a0babc3",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2021-01-03T13:28:59Z",
+      "side": 1,
+      "message": "How come you didn\u0027t switch to blob_fixup() for these? It\u0027s in the templates",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 93
+      },
+      "revId": "4f29a26edb2119fbac86760c4fa93cbfdac32ce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
