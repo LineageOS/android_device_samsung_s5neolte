@@ -18,7 +18,7 @@
 set -e
 
 VENDOR=samsung
-DEVICE=s5neolte
+DEVICE=universal7580-common
 
 export INITIAL_COPYRIGHT_YEAR=2017
 
