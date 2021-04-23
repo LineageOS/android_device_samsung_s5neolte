@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=s5neolte
+DEVICE=universal7580-common
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks
