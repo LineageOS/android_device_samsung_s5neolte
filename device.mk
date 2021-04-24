@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/nfc/libnfc-sec-hal.conf:system/etc/libnfc-sec-hal.conf \
+    $(LOCAL_PATH)/configs/nfc/libnfc-sec-hal.conf:system/etc/libnfc-sec-vendor.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-sec.conf:system/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     com.android.nfc_extras \
-    android.hardware.nfc@1.0-impl
+    android.hardware.nfc@1.2-service.samsung
 
 # Permissions
 PRODUCT_COPY_FILES += \
