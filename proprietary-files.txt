@@ -69,7 +69,6 @@ etc/wifi/nvram_net.txt:vendor/etc/wifi/nvram_net.txt
 
 # NFC
 etc/sec_s3fwrn7_rfreg.bin
-lib/hw/nfc_nci.universal7580.so
 vendor/firmware/sec_s3fwrn7_firmware.bin
 
 # cbd, from boot.img and pinned to stop removal when extracting from system image
